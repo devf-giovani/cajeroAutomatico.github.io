@@ -1,0 +1,95 @@
+:root{
+    --bg-all: #243441;
+}
+
+body{
+    background-color: var(--bg-all);
+    color: white;
+    margin: auto;
+}
+.container{
+    margin-top: 52px;
+}
+.numero{
+    color: var(--bg-all);
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: 300;
+}
+.numero:hover{
+    color: var(--bg-all);
+    font-size: 800;
+}
+.clean{
+    color: brown;
+    text-decoration: none;
+}
+.clean:hover{
+    color: #fff;
+    font-size: 800;
+}
+.btn-clean:hover{
+    background-color: brown !important;
+}
+.confirmar{
+    color: #ED802E;
+}
+.btn-confirmar:hover{
+    background-color: #ED802E !important;
+}
+.btn{
+    color: #435c70;
+    background-color: #FFFFFF;
+    border: #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 22px;
+    width: 390px;
+    height: 80px;
+    --bs-btn-hover-bg: #88898C;
+    --bs-a-hover-color: #ffffff;
+}
+.btn:hover{
+    background-color: #435c70;
+    color: var(--bg-all);
+    --bs-a-hover-color: #ffffff;
+}
+a{
+    font-size: 40px;
+}
+a:hover{
+color: #fff;
+}
+.pantalla{
+    color: #FFFFFF;
+    margin: auto;
+    width: fit-content;
+}
+.bg-pantalla{
+    border-radius: 30px;
+    margin-bottom: 45px;
+    margin: auto;
+    height: 150px;
+    background-color: #ED802E;
+}
+
+/*-----MQ----*/
+
+@media (max-width: 570px){
+    .btn{width: 215px !important;}  
+    .bg-pantalla{ width: 300px !important;}    
+    .container{width: fit-content;}  
+}    
+
+@media (max-width: 1024px){
+    .btn{width: 215px;}      
+    .bg-pantalla{
+        width: 670px;
+    }  
+    .container{width: fit-content;}
+}   
+
+@media (max-width: 1200px){
+    .btn{width: 250px !important;}      
+    .bg-pantalla{width: 810;}  
+    .container{width: fit-content;}
+}   
